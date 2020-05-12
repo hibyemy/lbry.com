@@ -10,7 +10,7 @@ Users can establish accounts with lbry.tv on all of our applications. You'll be 
 
 ## Account passwords and logging in
 
-lbry.tv users will be prompted to set a password when signing up for a new account and also confirm that the email belongs to them. **It is important to set a strong password to ensure no one else can access your account, LBRY credits, and published content.**. These passwords can be reset via email or changed on the Settings page.
+lbry.tv users will be prompted to set a password when signing up for a new account and also confirm that the email belongs to them. **It is important to set a strong password to ensure no one else can access your account, LBRY credits, and published content.** These passwords can be reset via email or changed on the Settings page.
 
 ![](https://spee.ch/9/passwords-join.png)
 
@@ -19,19 +19,19 @@ If you are logging back in or from another device, you can do so with your accou
 ![](https://spee.ch/4/passwords-signin-password.png)
 
 ### Existing lbry.tv users without a password
-Existing lbry.tv users can set a password via the Settings page if password log in is preferred over email confirmation. 
+Existing lbry.tv users can set a password via the Settings page if password login is preferred over email confirmation. 
 
 ![](https://spee.ch/6/passwords-add.png)
 
 ### Resetting account password
 
-On the login screen, you'll have the option to reset an account password via email. Once you get the email, click the confirmation link and setup a new password.
+On the login screen, you'll have the option to reset an account password via email. Once you get the email, click the confirmation link and set up a new password.
 
 ![](https://spee.ch/9/passwords-reset.png)
 
 ### Changing account password
 
-You can update your account password on the Settings page. You'll be prompted for your old password, and the new one. Existing sessions will be kept active. If you need them signed out for security reasons, please [contact us](/faq/support).
+You can update your account password on the Settings page. You'll be prompted for your old password and the new one. Existing sessions will be kept active. If you need them signed out for security reasons, please [contact us](/faq/support).
 
 ![](https://spee.ch/9/update-password.jpg)
 
@@ -40,11 +40,11 @@ Account passwords are separate from wallet passwords. Users with encrypted walle
 
 ## How syncing of account data works
 
-1. Every user, whether on LBRY Desktop, Android, or [lbry.tv](https://lbry.tv), has a single wallet file. This file stores your private keys (like a password) that controls your channels and account balances. The keys in this file are the only way to move or spend LBC or publish to your channel.
+1. Every user, whether on LBRY Desktop, Android, or [lbry.tv](https://lbry.tv), has a single wallet file. This file stores your private keys (like a password) that control your channels and account balances. The keys in this file are the only way to move or spend LBC or publish to your channel.
 1. On an ongoing basis, your account preferences and other settings are written to your wallet file.
 1. If you create a lbry.tv login and turn on account sync (backup), your wallet file will be backed up to and from a LBRY, Inc. server each time you log in and at regular intervals.
 1. Each time this happens, your preferences, channels, subscriptions, and other data will be updated on the new device.
-1. If your wallet file has a password on it, LBRY, Inc. cannot see into your wallet or do anything with it, including reset your password.
+1. If your wallet file has a password on it, LBRY, Inc. cannot see into your wallet or do anything with it, including resetting your password.
 
 ## Using wallet sync
 
@@ -56,7 +56,7 @@ This process is currently manual, please [contact us](/faq/support).
 
 As of writing, current limitations are:
 
-- Can't set or change wallet passwords (coming in mid 2020) if you previously did not have one. If you'd like to do this manually, please [contact us](/faq/support). Wallet passwords are separate from account passwords, and they cannot be reset or changed if lost/forgotten.
+- Can't set or change wallet passwords (coming in mid-2020) if you previously did not have one. If you'd like to do this manually, please [contact us](/faq/support). Wallet passwords are separate from account passwords, and they cannot be reset or changed if lost/forgotten.
 - On Desktop, if you sign out and back in with a different email, these wallets and accounts will be merged. Do not do this unless it's intentional and you expect the new email to be used by the same person. To prevent this, rename/remove the [default_wallet file in the lbryum/wallets folder](/faq/lbry-directories) and quit the app with Ctrl-Q after signing out.
 
 ### Desktop
